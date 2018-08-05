@@ -117,11 +117,11 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
                 // it into the home html snippet.
                 //
                 // var homeHtmlToInsertIntoMainPage = chosenCategoryShortName;
-                var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
-                    "catShortName",
-                    "'" +chosenCategoryShortName.short_name + "'");
+                // var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
+                //     "catShortName",
+                //     "'" +chosenCategoryShortName.short_name + "'");
 
-                homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlToInsertIntoMainPage,
+                var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
                     "randomCategoryShortName",
                     "'" + chosenCategoryShortName.short_name + "'");
                 // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
